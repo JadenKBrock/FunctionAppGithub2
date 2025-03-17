@@ -1,4 +1,6 @@
 import os
+import sys
+sys.path.append(os.path.join(os.getcwd(), ".python_packages", "lib", "site-packages"))
 import re
 import json
 from azure.ai.inference import ChatCompletionsClient
